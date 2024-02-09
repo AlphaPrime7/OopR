@@ -36,6 +36,7 @@ twinpoint_distance.numeric = function(x){
 }
 
 twinpoint_distance.twin_points(y) #this works out and picks out the right method (49)
+twinpoint_distance(y)
 twinpoint_distance(x) #conversely, the default method yields 2401 (picks correct again)
 twinpoint_distance.numeric(y)
 #We dont run into issues here bc the - operator does not discrimate based on object class
